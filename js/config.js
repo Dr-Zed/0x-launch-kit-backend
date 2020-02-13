@@ -8,7 +8,7 @@ var fs = require('fs');
 var _ = require('lodash');
 var path = require('path');
 var constants_1 = require('./constants');
-var metadataPath = path.join(__dirname, '../../metadata.json');
+var metadataPath = path.join(__dirname, '../metadata.json');
 var EnvVarType;
 (function(EnvVarType) {
     EnvVarType[(EnvVarType['Port'] = 0)] = 'Port';
